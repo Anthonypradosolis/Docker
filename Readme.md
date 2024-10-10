@@ -15,6 +15,14 @@ Con el segundo comando visualizamos la imagen sin arrancarla
 
 2. Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
 
+sudo docker run alpine
+
+Con este comando creamos un contenedor sin nombre y sin arrancar 
+
+sudo docker ps -a
+
+Con este comando visualizamos los contenedores que tenemos
+
 3. Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
 
 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
