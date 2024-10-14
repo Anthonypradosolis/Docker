@@ -81,3 +81,12 @@ Con este comando accedo al contenedor
 
 
 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
+
+   sudo docker stats
+
+   Con este comando obtengo la memoria que ocupan los contenedores
+
+   RAM ocupada: 0.02% del primer contenedor
+
+   RAM ocupada: 0.01% del segundo contenedor
