@@ -71,6 +71,10 @@ Con este comando accedo al contenedor
 
     Al salir de la terminal los contenedores ya inicalizados siguen funcionando
 
+    sudo docker ps -a
+
+    Para comprobar los contenedores creados
+
 7. ¿Cuanta memoria en el disco duro ocupaste?
 
     sudo docker stats
