@@ -69,6 +69,8 @@ Con este comando accedo al contenedor
 
 6. Sal del terminal, ¿que ocurrió con el contenedor?
 
+    Al salir de la terminal los contenedores ya inicalizados siguen funcionando
+
 7. ¿Cuanta memoria en el disco duro ocupaste?
 
 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
