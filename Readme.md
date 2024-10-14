@@ -73,4 +73,11 @@ Con este comando accedo al contenedor
 
 7. ¿Cuanta memoria en el disco duro ocupaste?
 
+    sudo docker stats
+
+    Con este comando obtengo la memoria que ocupa docker en el disco duro
+
+    Memoria ocupada: 0.00%
+
+
 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
