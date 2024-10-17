@@ -39,8 +39,9 @@ Con este comando accedo al contenedor
 
 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
 
+
     sudo docker inspect dam_alp1 | grep IPA
-    
+
     Con este comando obtengo la ip del contenedor
 
     sudo docker exec -it dam_alp1 sh
@@ -50,6 +51,7 @@ Con este comando accedo al contenedor
     ping -c 2 google.com
 
 5. Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
+
 
     sudo docker run --name dam_alp2 -it alpine
 
@@ -69,6 +71,7 @@ Con este comando accedo al contenedor
 
 6. Sal del terminal, ¿que ocurrió con el contenedor?
 
+
     Al salir de la terminal los contenedores ya inicalizados siguen funcionando
 
     sudo docker ps -a
@@ -76,6 +79,7 @@ Con este comando accedo al contenedor
     Para comprobar los contenedores creados
 
 7. ¿Cuanta memoria en el disco duro ocupaste?
+
 
     sudo docker stats
 
